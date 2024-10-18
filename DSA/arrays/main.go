@@ -3,7 +3,7 @@ package main
 import (
 
 	"fmt"
-	"DSA/arrays"
+	"DSA/arrays/arrays"
 
 )
 
