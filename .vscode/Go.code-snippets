@@ -1,0 +1,15 @@
+{
+    "Go Main Boilerplate": {
+        "prefix": "goMain",
+        "body": [
+            "package main",
+            "",
+            "import \"fmt\"",
+            "",
+            "func main() {",
+           
+            "}"
+        ],
+        "description": "Basic Go main function boilerplate"
+    }
+}
