@@ -11,8 +11,10 @@ func main() {
 	// fmt.Println(basic_maths.Gcd(25,4))
 	// fmt.Println(basic_maths.GcdEuclidean(25,5))
 	// fmt.Println(basic_maths.IsArmstrong(153))
-	 fmt.Println(basic_maths.Divisors(36))
-	// fmt.Println(basic_maths.IsPrime(13))
+	//  fmt.Println(basic_maths.Divisors(7))
+	// fmt.Println(basic_maths.IsPrime(8))
+	// fmt.Println(basic_maths.EratoSieve(1000000))
+	fmt.Println(basic_maths.PrimeCount(1))
 
 
 }
