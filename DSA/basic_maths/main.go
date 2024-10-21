@@ -16,6 +16,7 @@ func main() {
 	// fmt.Println(basic_maths.EratoSieve(1000000))
 	// fmt.Println(basic_maths.PrimeCount(1))
 	 fmt.Println(basic_maths.PrimeFactors(12563))
+	// basic_maths.Fib(13)
 
 
 }
