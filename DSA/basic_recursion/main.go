@@ -18,7 +18,8 @@ func main() {
 	// fmt.Println(basic_recursion.ReverseArray(arr,0,len(arr)-1))
 
 	//fmt.Println(basic_recursion.IsPalindrome("mmadramm")
-	fmt.Println(basic_recursion.IsPalindrome("testset",0))
+	// fmt.Println(basic_recursion.IsPalindrome("testset",0))
+	fmt.Println(basic_recursion.PowRecursion(2.00,-2))
 
 
 
