@@ -10,7 +10,7 @@ import (
 //MinMax
 
 func main() {
-	testArray := []int{9,8,4,0,2,1,5,4}
+	testArray := []int{9,8,4,-2,0,1,2,3,5,4}
 
 
 // 	min, max := arrays.MinMax(testArray)
@@ -31,7 +31,11 @@ func main() {
 // fmt.Println(arrays.SelectionSort(testArray))
 
 //Insertion sort
-fmt.Println(arrays.InsertionSort(testArray))
+// fmt.Println(arrays.InsertionSort(testArray))
+
+// fmt.Println(arrays.PrintLcis(testArray))
+
+fmt.Println(arrays.SecondLargestOptimal(testArray))
 
 }
 
