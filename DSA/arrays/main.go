@@ -11,7 +11,9 @@ import (
 
 func main() {
 	// testArray := []int{9,8,4,-2,0,1,2,3,5,4}
-	testArraySorted := []int{-2,0,1,2,3,4}
+	// testArraySorted := []int{-2,0,1,2,3,4}
+	// testArraySortedDuplicates:=[]int{1,1,2,2,2,3,3}
+	testArrayInOrder := []int{1,2,3,4,5,6,7}
 
 
 // 	min, max := arrays.MinMax(testArray)
@@ -33,7 +35,13 @@ func main() {
 // fmt.Println(arrays.PrintLcis(testArray))
 
 // fmt.Println(arrays.SecondLargestOptimal(testArray))
-fmt.Println(arrays.CheckIfSorted(testArraySorted))
+// fmt.Println(arrays.CheckIfSorted(testArraySorted))
+// fmt.Println(arrays.RemoveDuplicates(testArraySortedDuplicates))
+
+// fmt.Println(arrays.LeftRotateByOneBF(testArray))
+
+// fmt.Println(arrays.Rotate(testArrayInOrder, 3))
+fmt.Println(arrays.RotateRightOptimal(testArrayInOrder,3))
 
 }
 
