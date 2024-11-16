@@ -13,7 +13,8 @@ func main() {
 	// testArray := []int{9,8,4,-2,0,1,2,3,5,4}
 	// testArraySorted := []int{-2,0,1,2,3,4}
 	// testArraySortedDuplicates:=[]int{1,1,2,2,2,3,3}
-	testArrayInOrder := []int{1,2,3,4,5,6,7}
+	// testArrayInOrder := []int{1,2,3,4,5,6,7}
+	testArrayN := []int{0,1,2,4,5,6,7,8,9}
 
 
 // 	min, max := arrays.MinMax(testArray)
@@ -41,8 +42,11 @@ func main() {
 // fmt.Println(arrays.LeftRotateByOneBF(testArray))
 
 // fmt.Println(arrays.Rotate(testArrayInOrder, 3))
-fmt.Println(arrays.RotateRightOptimal(testArrayInOrder,3))
-
+// fmt.Println(arrays.RotateRightOptimal(testArrayInOrder,3))
+// fmt.Println(arrays.LinearSearch(testArray, 5))
+// fmt.Println(arrays.UnionOfArrays(testArrayInOrder,testArraySortedDuplicates))
+// fmt.Println(arrays.UnionOfArraysTwoPointers(testArrayInOrder,testArraySortedDuplicates))
+fmt.Println(arrays.FindMissingNumberXOR(testArrayN))
 }
 
 
