@@ -16,7 +16,9 @@ func main() {
 	// testArrayInOrder := []int{1,2,3,4,5,6,7}
 	// testArrayN := []int{0,1,2,4,5,6,7,8,9}
 	// consecutiveOnes := []int{1,0,1,1,0,1}
-	consecutiveOnes := []int{1,1,0,1,1,1}
+	// consecutiveOnes := []int{1,1,0,1,1,1}
+	testArray := []int{4, 1, 1, 2, 1, 5}
+
 
 
 
@@ -51,7 +53,8 @@ func main() {
 // fmt.Println(arrays.UnionOfArrays(testArrayInOrder,testArraySortedDuplicates))
 // fmt.Println(arrays.UnionOfArraysTwoPointers(testArrayInOrder,testArraySortedDuplicates))
 // fmt.Println(arrays.FindMissingNumberXOR(testArrayN))
-fmt.Println(arrays.MaxConsecutiveOnes(consecutiveOnes))
+// fmt.Println(arrays.MaxConsecutiveOnes(consecutiveOnes))
+fmt.Println(arrays.MaxLengthSumBF(testArray, 6))
 }
 
 
